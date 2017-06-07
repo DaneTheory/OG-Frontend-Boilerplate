@@ -1,14 +1,14 @@
 {
-  "name": "OG Front End Boilerplate",
-  "title": "Boilerplate for rapid front-end dev.",
-  "description": "Quick start projects. No need to wire up tooling. Use all the new and shiny dev toys out of the box with a ready to go dev pipeline built right in.",
-  "author": "Branden Dane",
-  "url": "https://DaneTheory.com",
+  "name": "og-frontend-boilerplate",
   "version": "1.0.0",
-  "license": "MIT",
+  "description": "Quick start projects. No need to wire up tooling. Use all the new and shiny dev toys out of the box with a ready to go dev pipeline built right in.",
   "repository": {
-    "type": "git",
-    "url": "http://github.com/DaneTheory/og-front-end-boilerplate.git"
+      "type": "git",
+      "url": "http://github.com/DaneTheory/og-front-end-boilerplate.git"
+  },
+  "main": "gulpfile.babel.js",
+  "dependencies": {
+
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -22,5 +22,10 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "jshint": "^2.8.0"
-  }
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Branden Dane",
+  "license": "ISC"
 }
